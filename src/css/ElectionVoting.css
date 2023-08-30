@@ -1,0 +1,56 @@
+.election-voting{
+    margin: 0 auto;
+    width: 50%;
+}
+.election-voting form{
+    margin: 1rem auto;
+    width: 60%;
+}
+.election-voting form h3{
+    text-align: center;
+}
+.election-voting form .candidate-list{
+   
+}
+.election-voting form .candidate-list ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.election-voting form .candidate-list ul li{
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: .25rem 0;
+    border: 1px solid gray;
+}
+.election-voting form .candidate-list ul li input{
+    margin-right: 1rem;
+}
+.election-voting form .vote-candidate{
+    margin: 0;
+}
+.election-voting form .vote-candidate button{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.election-voting form .vote-candidate span{
+    width: 100%;
+    margin: 0.25rem 0 0 0;
+    padding: 0.25rem 0;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+.election-voting form .voted-done{
+    background-color: rgb(0, 184, 0);
+    color: white;
+    padding: 1rem 0;
+}

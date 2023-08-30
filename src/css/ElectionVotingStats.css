@@ -1,0 +1,42 @@
+
+.election-voting{
+    margin: 0 auto;
+    width: 50%;
+}
+.election-voting .stats{
+    margin: 1rem auto;
+    width: 70%;
+}
+.election-voting .stats h3{
+    text-align: center;
+}
+.election-voting .stats .candidate-list{
+   
+}
+.election-voting .stats .candidate-list ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.election-voting .stats .candidate-list ul li{
+    width: 100%;
+    display: flex;
+   
+}
+.election-voting .stats .candidate-list ul li span{
+    padding: 0.5rem 1rem;
+    margin: .25rem 0;
+    border: 1px solid gray;
+
+}
+.election-voting .stats .candidate-list ul li span:first-child{
+   width: 80%;
+   text-align: left;
+}
+.election-voting .stats .candidate-list ul li span:nth-child(2){
+    width: 20%;
+    text-align: center;
+}
+.election-voting .stats .vote-candidate{
+    margin: 0;
+}

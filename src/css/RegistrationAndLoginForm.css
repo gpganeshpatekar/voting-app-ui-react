@@ -1,0 +1,70 @@
+.reg-log{
+    margin: 0 auto;
+    width: 50%;
+}
+.reg-log form{
+    margin: 0 auto;
+    text-align: center;
+}
+.reg-log form .content{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.reg-log form input,span,button{
+    display: block;
+}
+.reg-log form .actions{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .reg-log form .actions button{
+    width: 49.5%;
+    padding: 0.5rem;
+    border-radius: 0;
+    border: 1px solid gray;
+    cursor: pointer;
+  }
+  .reg-log form h3{
+    text-align: center;
+  }
+  .reg-log form input,span,button{
+    display: block;
+  }
+  .reg-log form input{
+      padding: 0.5rem;
+      outline: none;
+      border: 1px solid lightgray;
+      border-radius: 0;
+  }
+  .reg-log form .content span{
+    display: block;
+    width: 100%;
+    height: 1.25rem;
+    font-size: 0.75rem;
+    color: red;
+    text-align: left;
+    padding-left: 0.5rem;
+  }
+  .reg-log form .content .success{
+    margin: .25rem 0;
+    display: block;
+    width: 100%;
+    height: 1.25rem;
+    font-size: 1rem;
+    color:green;
+    text-align: center;
+  }
+  .reg-log form .content .error{
+    margin: .25rem 0;
+    display: block;
+    width: 100%;
+    height: 1.25rem;
+    font-size: 1rem;
+    color: red;
+    text-align: center;
+  }

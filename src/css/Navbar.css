@@ -1,0 +1,22 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li{
+    display: flex;
+}
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    color: gray;
+}
+.navbar ul li a.active{
+    color: black;
+    font-weight: 550;
+}
