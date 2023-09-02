@@ -86,7 +86,7 @@ const ElectionVoting = () => {
          <form onSubmit={handleSubmitVote}>
             <h3>BMC ELECTION 2017</h3>
             {
-                (isVoted == false)?
+                (isVoted === false)?
                 <>
                 <div className='candidate-list'>
                 

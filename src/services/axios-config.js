@@ -1,7 +1,10 @@
 import axios from "axios";
 import { getToken } from "../auth";
 
-export const BASE_URL = 'http://localhost:8080/voting-app';
+// export const BASE_URL = 'http://localhost:8080/voting-app';
+
+// railway.app production url
+export const BASE_URL = 'https://voting-app.up.railway.app/voting-app';
 
 export const PUBLIC_AXIOS = axios.create({
     baseURL: BASE_URL,
